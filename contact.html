@@ -1,0 +1,45 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking bootstrap to index.html-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <!-- linking style.css to index.html --> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- making sure that nav-bar collapse works --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- linking script.css to index.html -->
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- collapsed navbar-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--end collapse-->
+      <a class="navbar-brand scroll" href="#home">Chris Jim</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="index.html" class="scroll"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+         <li><a href="about.html" class="scroll"><span class="glyphicon glyphicon-user"></span> About </a></li> 
+         <li><a href="experience.html" class="scroll"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
+         <li><a href="portfolio.html" class="scroll"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
+         <li><a href="contact.html" class="scroll"><span class="glyphicon glyphicon-globe"></span> Contact</a></li>
+       </ul>
+     </div>
+  </div>
+</nav>
+
+<section>
+  <h1>Hello World! This is Contact page!</h1>
+</section>
+
+
+  
